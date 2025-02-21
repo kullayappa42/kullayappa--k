@@ -1,0 +1,507 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+    text-decoration:none;
+    list-style:none;
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 35px 12%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:100;
+
+}
+.logo{
+    font-size: 25px;
+    color: rgb(7, 7, 7);
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.logo:hover{
+    color:orangered;
+    text-shadow: 0 0 25px orangered,
+                 0 0 50px orangered;
+    transform: scale(1.1);    
+
+}
+span{
+    color: orangered;
+    margin: 50px;
+}
+.navbar a{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+
+}
+.navbar a:hover,
+.navbar a.active{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+.homo{
+    width: 100px;
+    min-height: 100vh;
+    background: rgba(241 ,241 ,241);
+    display: flex;
+    align-items: center;
+    gap:7em;
+    padding: 30px 12% 0;
+}
+.home-content{
+    max-width: 800px;
+
+}
+.home-content h3{
+    font-size: 42px;
+}
+home-content h1{
+    font-size: 62px;
+    line-height: 1.2;
+}
+.home-content p{
+    font-size: 18px;
+    margin:25px 0 30px;
+
+}   
+.btn-box{
+    width: 60px;
+    display:flex;
+    gap:2em;
+}
+.btn-1{
+    padding: 10px 17px;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+}
+.animated-text{
+    text-align: center;
+}
+
+.btn-1{
+    background-color:black;
+    color: white;
+    border: 2px solid black;
+}
+
+.btn-1:hover{
+    background-color:white;
+    color: black;
+
+}
+.btn-2{
+    padding: 10px 17px;
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 13px;
+    letter-spacing:1px;
+    font-weight: 400;
+    transition: 0.3s ease;
+    cursor: pointer;
+
+}
+.btn-2{
+    background-color:orangered;
+}
+
+.btn-2:hover{
+    background-color: white;
+    color:black;
+
+}
+.div{
+    width: 150px;
+
+}
+.text-indent{
+    text-indent: 100px;
+
+}
+h1 textindent{
+    text-indent: 80px;
+}
+h5{
+    text-indent: 50px;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.special{
+    color: orangered;
+}
+h1{
+    font-size: 35px;
+
+}
+img{
+    border: 20px solid gray;
+    border-radius: 300px;
+    padding: 5px;
+    margin-top: 0px;
+    float: right;
+
+    margin-right: 100px;
+    border-top-color: blue;
+    animation-name: special;
+    animation-duration: 0.5s;
+    border-bottom-color: blue;
+    animation-iteration-count: infinite;
+}
+   
+
+
+@keyframes special {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    
+}}
+
+
+
+::-webkit-scrollbar{
+    width: 15px;
+
+}
+::-webkit-scrollbar-thumb{
+
+    background-color: orangered;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.607);
+    width: 50px;
+}
+pre{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.btn-box{
+    text-indent: 90px;
+}
+.hello{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background: blueviolet;
+}
+.about-img{
+    box-shadow: 0 0 25px orangered,
+                0 0 50px orangered;
+    border-radius: 50px;   
+}
+.about-content h2{
+    text-align: left;
+    color: white;
+    font-size: 42px;
+    text-indent: 10px;
+
+
+
+}
+.about-content h3{
+    font-size: 62px;
+    color: white;
+    text-indent: 10px;
+}
+.about-content p{
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+    text-indent: 10px;
+}
+.hi{
+    background-color: rgba(7, 170, 246, 0.603);
+    text-indent: 100px;
+}
+.how are you{
+    background-color: rgba(8, 111, 246, 0.603);
+}
+.certificate{
+    font-size: 30px;
+}
+.buttons:link{
+    background-color: red;
+
+
+}
+.contact li{
+    color: white;
+    font-size: 30px;
+    
+
+
+}
+.alltabs{
+    background-color: rgba(8, 137, 250, 0.603);
+
+}
+
+
+.b{
+    color: black;
+    font-size: 20px;
+
+}
+.b:hover{
+    color: orangered;
+    color: black;
+
+}
+.hi .b:hover{
+    background-color: orangered;
+
+}
+.contact .b:hover{
+    background-color: orangered;
+}
+.home-sci a{
+    margin-left: 90px;
+    display: inline-flex;
+    justify-content:center ;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border:  2px solid rgb(73, 3, 157);
+    border-radius: 50px;
+    font-size: 20px;
+    color: rgb(11, 12, 12);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+}
+.home-sci{
+    margin-left: 90px;
+}
+.container1,h1{
+    margin-left: 100px;
+    
+}
+.container1,h1-bar{
+    background: rgb(235, 233, 236);
+    border-radius: 3px;
+
+}
+.skill-bar{
+    height: 14px;
+    background:#282828 ;
+    border-radius: 3px;
+    width: 100px;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+.skill-per{
+    height: 14px;
+    background: #d13639;
+    border-radius: 3px;
+    position: relative;
+    animation: fillBars 2.5s 1;
+
+
+}
+.skill-per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top:-35px;
+    right: 0;
+    transform: translateX(50%);
+}
+.skill-per::after{
+    content: " ";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #f1f1f1;
+    border-radius: 4px;
+    font-size: 12px;
+    top:-20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+@keyframes fillBars{
+    from{
+        width: 0;
+    }
+ to{
+    width: 100;
+}}
+.skillindent{
+    text-indent: 200px;
+}
+   body {
+        font-family: Arial, sans-serif;
+    }
+    
+    .skills-container {
+        width: 30%;
+        margin: 40px auto;
+    }
+    
+    .skill-bar {
+        position: relative;
+        width: 50%;
+        height: 20px;
+        background-color: #f0f0f0;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .skill-name {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 10px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    .skill-progress {
+        position: relative;
+        height: 100%;
+        background-color: #06adf5;
+        border-radius: 10px;
+        animation: animate 2s forwards;
+    }
+    
+    @keyframes animate {
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 80%; /* Change this value to match the width of the progress bar */
+        }
+    }
+    .about-content h2{
+        text-align: left;
+        color: white;
+        font-size: 42px;
+    
+    
+    }
+    .about-content h3{
+        font-size: 62px;
+        color: white;
+    
+    }
+    .about-content p{
+        color: white;
+        font-size: 20px;
+        margin: 2em 0 3em;
+    }
+    .hi{
+        background-color: rgba(0, 0, 255, 0.603);
+        text-indent: 100px;
+    }
+    .how are you{
+        background-color: rgba(0, 0, 255, 0.603);
+    }
+    .certificate{
+        font-size: 30px;
+    }
+    .buttons:link{
+        background-color: red;
+    
+    
+    }
+    .contact li{
+        color: white;
+        font-size: 30px;
+        
+    
+    }
+    .contact{
+        background-color: rgba(0, 0, 255, 0.603);
+        text-indent: 100px;
+    }
+    .alltabs{
+        background-color: rgba(0, 0, 255, 0.603);
+    
+    }
+    .mycontact{
+        text-indent: 100px;
+    }
+    .b{
+        color: black;
+        font-size: 20px;
+    
+    }
+    .b:hover{
+        color: orangered;
+        color: black;
+    }
+    .mycontact{
+        background-color: rgba(207, 8, 251, 0.603);
+    }
+    .hi .b:hover{
+        background-color: orangered;
+    
+    }
+    .contact .b:hover{
+        background-color: orangered;
+    }
+    .home-sci{
+        color: #0e0f0f;
+    
+
+
+    }
+.home-sci :hover{
+    background: #fcfafa;
+    box-shadow:  0 0 10px rgb(253, 252, 252);
+
+
+}
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
